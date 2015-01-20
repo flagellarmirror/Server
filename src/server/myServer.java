@@ -14,8 +14,8 @@ import java.util.ArrayList;
  * @author ema
  */
 public class myServer {
-    InetAddress localhost;
-    int port;
-    ServerSocket server;
-    ArrayList<User> online;
+    InetAddress localhost;//This variable contain the ip of pc
+    int port;//This variable contain the port of server
+    ServerSocket server;//This variable contain the server
+    ArrayList<User> online;//This array cointan the list of people online
 }
